@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Header{
+    overflow: auto;
+    padding: 20px 4rem;
+    position: fixed;
+    width: 100%;
+}
+
+#Header .Left{
+    width: 20%;
+    float: left;
+    
+    
+}
+#Header .Right{
+    float: right;
+    margin-top: 10px;
+}
+#Header .Right a{
+    margin-left: 20px;
+    color: aliceblue;
+}
+#First-Page{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 18rem 0;
+}
+#First-Page h1{
+    font-size: 36px;
+    color: #fff;
+}
+#First-Page h2{
+    font-size: 72px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+}
+#First-Page a{
+    background-color:#ffc800 ;
+    color: #fff;
+    border-radius: 6px;
+    padding: 20px 40px;
+    font-weight: bold;
+    
+}
+#Service{
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+.Service-Head{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Service-Head h2{
+    font-size: 40px;
+}
+
+.Service-Body .Service-box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.Service-Body .Service-box svg{
+    height: 5rem;
+    background-color: #ffc800;
+    color: #fff;
+    border-radius: 50%;
+}
+.Service-Body .Service-box h3{
+    margin: 10px 0;
+}
+#Third{
+    padding: 5rem 4rem;
+    overflow: auto;
+    background-color: #F8F9FA;
+}
+
+.third-all .box{
+    width: 30%;
+    float: left;
+    margin-right: 1px;
+    margin: 20px 15px;
+}
+
+.third-all .box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.third-all .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+#Team{
+    padding: 5rem 4rem;
+    overflow: auto;
+    background-color: #fff;
+    text-align: center;
+}
+.team-head{
+    padding-bottom: 60px;
+}
+.box{
+    width: 33%;
+    float: left;
+    margin-right: 1px;
+    
+    text-align: center;
+    
+    
+}
+.team-box img{
+    width: 50%;
+    vertical-align: bottom;
+    border-radius: 50%;
+}
+
+
+
